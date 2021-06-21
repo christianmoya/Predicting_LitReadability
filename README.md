@@ -12,8 +12,7 @@ The Data in this text was pulled from the Kaggle competition, "CommonLit Readabi
 
 The most commonly used bigrams are "one day", "united states", and "years ago". In our pre-model EDA, we find that difficult texts have more scientific bigrams like "per cent", "per second", and "experiments made", whereas our easy text have bigrams more related to stories, like "one day", "little girl" and "little boy". 
 
-![Easy Text Bigrams](https://github.com/christianmoya/Predicting_LitReadability/blob/main/Pictures/easy_bigrams.png)
-![Difficult Text Bigrams](https://github.com/christianmoya/Predicting_LitReadability/blob/main/Pictures/difficult_bigrams.png)
+![Easy Text Bigrams](https://github.com/christianmoya/Predicting_LitReadability/blob/main/Pictures/easy_bigrams.png) ![Difficult Text Bigrams](https://github.com/christianmoya/Predicting_LitReadability/blob/main/Pictures/difficult_bigrams.png)
 
 ## Results 
 After multiple iterations, I found my score to be the lowest at .698 with a Ridge Regression model and a TF-IDF vectorizer with max features set at 50,000, a score 5% lower than our baseline model. When exploring feature importance, we fid that the terms that most increase readability score are "you", "mother", "lived", "girls" and "baby", signifying easier texts are more story-based. Terms that decrease readability scores are more prepositional terms, like "of", "as", and "in", signifying that texts that are more passive and include unnecessary words are more difficult to digest. 
