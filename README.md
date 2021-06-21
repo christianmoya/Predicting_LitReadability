@@ -1,4 +1,4 @@
-# Predicting_LitReadability
+# Predicting Readability for Student Text
 
 ![Readability Cover Photo](https://github.com/christianmoya/Predicting_LitReadability/blob/main/Pictures/readability_picture.png)
 
